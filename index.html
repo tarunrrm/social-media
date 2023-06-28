@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEN</title>
+  <!-- Icons link -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <!-- Css link -->
+  <link rel="stylesheet" href="/code/index.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <!-- logo -->
+      <h2 class="logo">Nomad</h2>
+      <!-- search-box -->
+      <div class="search-box">
+        <i class="uil uil-search"></i>
+        <input type="search" placeholder="search">
+      </div>
+      <!-- create  -->
+      <div class="create">
+        <label class="btn btn-primary" for="create-post">create</label>
+        <div class="profile-photo">
+          <img src="/images/profile-1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Main -->
+  <main>
+    <div class="container">
+      <!-- *******************LEFT********************* -->
+      <div class="left">
+        <!-- profile -->
+        <a class="profile">
+          <div class="profile-photo">
+            <img src="/images/profile-1.jpg" alt="">
+          </div>
+          <div class="handle">
+            <h4>Diana Ayi</h4>
+            <p class="text-muted">
+              @dayi
+            </p>
+          </div>
+        </a>
+        <!-- side bar -->
+        <div class="side-bar">
+          <!-- home -->
+          <a class="menu-item active">
+            <span><i class="uil uil-home"></i></span>
+            <h3>Home</h3>
+          </a>
+          <!-- explore -->
+          <a class="menu-item">
+            <span><i class="uil uil-compass"></i></span>
+            <h3>Explore</h3>
+          </a>
+          <!-- notifications -->
+          <a class="menu-item" id="notifications">
+            <span>
+              <i class="uil uil-bell">
+                <small class="notification-count">9+</small>
+              </i>
+            </span>
+            <h3>Notification</h3>
+            <!-- --------notification pop up ----------- -->
+            <div class="notification-popup">
+              <!-- 1st popup -->
+              <div>
+                <div class="profile-photo">
+                  <img src="/images/profile-2.jpg" alt="">
+                </div>
+                <div class="notifications-body">
+                  <b>tanuj reddy </b>accepted your friend request
+                  <small class="text-muted"> 2DAYS AGO</small>
+                </div>
+              </div>
+              <!-- 2nd popup -->
+              <div>
+                <div class="profile-photo">
+                  <img src="/images/profile-3.jpg" alt="">
+                </div>
+                <div class="notifications-body">
+                  <b>chandhu </b>accepted your friend request
+                  <small class="text-muted"> 2DAYS AGO</small>
+                </div>
+              </div>
+
+              <!-- 3rd popup -->
+              <div>
+                <div class="profile-photo">
+                  <img src="/images/profile-4.jpg" alt="">
+                </div>
+                <div class="notifications-body">
+                  <b>uday kiran </b>accepted your friend request
+                  <small class="text-muted"> 2DAYS AGO</small>
+                </div>
+              </div>
+              <!-- 4th popup -->
+              <div>
+                <div class="profile-photo">
+                  <img src="/images/profile-5.jpg" alt="">
+                </div>
+                <div class="notifications-body">
+                  <b>amaan bhai </b>accepted your friend request
+                  <small class="text-muted"> 2DAYS AGO</small>
+                </div>
+              </div>
+            </div>
+            <!-- end of notifications popup -->
+            <!-- messages -->
+            <a class="menu-item" id="message-notifications">
+              <span>
+                <i class="uil uil-envelope-minus">
+                  <small class="notification-count">6</small>
+                </i>
+              </span>
+              <h3>Messages</h3>
+            </a>
+            <!-- bookmarks -->
+            <a class="menu-item">
+              <span><i class="uil uil-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <!-- analytics -->
+            <a class="menu-item">
+              <span><i class="uil uil-analytics"></i></span>
+              <h3>Analytics</h3>
+            </a>
+            <!-- settings -->
+            <a class="menu-item">
+              <span><i class="uil uil-setting"></i></span>
+              <h3>Settings</h3>
+            </a>
+        </div>
+        <!-- end of sidebar -->
+        <label for="create-post" class="btn btn-primary">Create Post</label>
+      </div>
+      <!-- end of left -->
+      </a>
+      <!-- ***************middle******************* -->
+      <div class="middle">
+        <!-- ---------------stories-------------------- -->
+        <div class="stories">
+          <!-- 1st story -->
+          <div class="story">
+            <div class="profile-photo">
+              <img src="/images/profile-8.jpg" alt="">
+            </div>
+            <p class="name">your story</p>
+          </div>
+          <!-- 2nd story -->
+          <div class="story">
+            <div class="profile-photo">
+              <img src="/images/profile-9.jpg" alt="">
+            </div>
+            <p class="name">Narendar modi</p>
+          </div>
+          <!-- 3rd story -->
+          <div class="story">
+            <div class="profile-photo">
+              <img src="/images/profile-10.jpg" alt="">
+            </div>
+            <p class="name">sundar pichai</p>
+          </div>
+          <!-- 4th story -->
+          <div class="story">
+            <div class="profile-photo">
+              <img src="/images/profile-11.jpg" alt="">
+            </div>
+            <p class="name">satya nadella</p>
+          </div>
+          <!-- 5th story -->
+          <div class="story">
+            <div class="profile-photo">
+              <img src="/images/profile-12.jpg" alt="">
+            </div>
+            <p class="name">Mark zuckerberg</p>
+          </div>
+        </div>
+        <!-- end of stories  -->
+        <!-- create post -->
+        <form class="create-post">
+          <div class="profile-photo">
+            <img src="/images/profile-1.jpg" alt="">
+          </div>
+        <div class="post-body">
+          <div class="post-info">
+            <h5>Diana Ayi</h5>
+           <p class="text-muted">@dayi</p>
+          </div>
+          <div class="input-post">
+            <!-- <textarea name="" id=""  rows="5" cols="40" placeholder="what's on your mind?" id="create-post"></textarea>
+             -->
+              <input type="text" placeholder="what's on your mind?" id="create-post">
+          </div>
+          <div class="action-button">
+            <div class="upload">
+          <span><i class="uil uil-upload"></i></span>
+          <h5>Upload</h5>
+          
+        </div>
+        <div class="post-submit">
+          <input type="submit" value="post" class="btn btn-primary">
+        </div>
+          </div>
+        </div>
+          <!-- <input type="text" placeholder="what's on your mind?" id="create-post">
+          <input type="submit" value="post" class="btn btn-primary"> -->
+        </form>
+        <!-- end of create post -->
+        <!-- feeds -->
+        <div class="feeds">
+          <!-- feed 1 -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/images/profile-13.jpg" alt="">
+                </div>
+                <div class="ingo">
+                  <h3>diana</h3>
+                  <small>telangana,1hour ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="photo">
+              <img src="/images/feed-1.jpg" alt="">
+            </div>
+
+            <div class="action-button">
+              <div class="interaction-button">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-alt"></i></span>
+                <span><i class="uil uil-share"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="/images/profile-11.jpg" alt=""></span>
+              <span><img src="/images/profile-10.jpg" alt=""></span>
+              <span><img src="/images/profile-12.jpg" alt=""></span>
+              <p> Liked by </p> <b> Tarun </b> and <b> 200 others</b>
+            </div>
+
+            <div class="caption">
+              <p><b>Tarun </b>Lorem ipsum dolor sit amet.</p>
+              <p class="hash-tag">#Lifestyle</p>
+            </div>
+
+            <div class="comment text-muted">
+              View all 50 comments
+            </div>
+          </div>
+          <!-- feed 2 -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/images/profile-14.jpg" alt="">
+                </div>
+                <div class="ingo">
+                  <h3>diana</h3>
+                  <small>telangana,1hour ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="photo">
+              <img src="/images/feed-2.jpg" alt="">
+            </div>
+
+            <div class="action-button">
+              <div class="interaction-button">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-alt"></i></span>
+                <span><i class="uil uil-share"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="/images/profile-13.jpg" alt=""></span>
+              <span><img src="/images/profile-14.jpg" alt=""></span>
+              <span><img src="/images/profile-15.jpg" alt=""></span>
+              <p> Liked by </p> <b> Tarun </b> and <b> 200 others</b>
+            </div>
+
+            <div class="caption">
+              <p><b>Tarun </b>Lorem ipsum dolor sit amet.</p>
+              <p class="hash-tag">#Lifestyle</p>
+            </div>
+
+            <div class="comment text-muted">
+              View all 50 comments
+            </div>
+          </div>
+          <!-- feed 3 -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/images/profile-14.jpg" alt="">
+                </div>
+                <div class="ingo">
+                  <h3>diana</h3>
+                  <small>telangana,1hour ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="photo">
+              <img src="/images/feed-3.jpg" alt="">
+            </div>
+
+            <div class="action-button">
+              <div class="interaction-button">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-alt"></i></span>
+                <span><i class="uil uil-share"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="/images/profile-15.jpg" alt=""></span>
+              <span><img src="/images/profile-16.jpg" alt=""></span>
+              <span><img src="/images/profile-17.jpg" alt=""></span>
+              <p> Liked by </p> <b> Tarun </b> and <b> 200 others</b>
+            </div>
+
+            <div class="caption">
+              <p><b>Tarun </b>Lorem ipsum dolor sit amet.</p>
+              <p class="hash-tag">#Lifestyle</p>
+            </div>
+
+            <div class="comment text-muted">
+              View all 50 comments
+            </div>
+          </div>
+          <!-- feed 4 -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/images/profile-15.jpg" alt="">
+                </div>
+                <div class="ingo">
+                  <h3>diana</h3>
+                  <small>telangana,1hour ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="photo">
+              <img src="/images/feed-4.jpg" alt="">
+            </div>
+
+            <div class="action-button">
+              <div class="interaction-button">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-alt"></i></span>
+                <span><i class="uil uil-share"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="/images/profile-8.jpg" alt=""></span>
+              <span><img src="/images/profile-18.jpg" alt=""></span>
+              <span><img src="/images/profile-19.jpg" alt=""></span>
+              <p> Liked by </p> <b> Tarun </b> and <b> 200 others</b>
+            </div>
+
+            <div class="caption">
+              <p><b>Tarun </b>Lorem ipsum dolor sit amet.</p>
+              <p class="hash-tag">#Lifestyle</p>
+            </div>
+
+            <div class="comment text-muted">
+              View all 50 comments
+            </div>
+          </div>
+          <!-- feed 5 -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/images/profile-16.jpg" alt="">
+                </div>
+                <div class="ingo">
+                  <h3>diana</h3>
+                  <small>telangana,1hour ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="photo">
+              <img src="/images/feed-7.jpg" alt="">
+            </div>
+
+            <div class="action-button">
+              <div class="interaction-button">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-alt"></i></span>
+                <span><i class="uil uil-share"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="/images/profile-1.jpg" alt=""></span>
+              <span><img src="/images/profile-2.jpg" alt=""></span>
+              <span><img src="/images/profile-20.jpg" alt=""></span>
+              <p> Liked by </p> <b> Tarun </b> and <b> 200 others</b>
+            </div>
+
+            <div class="caption">
+              <p><b>Tarun </b>Lorem ipsum dolor sit amet.</p>
+              <p class="hash-tag">#Lifestyle</p>
+            </div>
+
+            <div class="comment text-muted">
+              View all 50 comments
+            </div>
+          </div>
+          <!-- end of feed -->
+        </div>
+        <!-- end of feeds-->
+
+      </div>
+      <!-- end of middle -->
+
+      <!-- *****************right**************** -->
+      <div class="right">
+        <!-- messages -->
+        <div class="messages">
+          <!-- msg heading -->
+          <div class="heading">
+            <h4>Messages</h4>
+            <i class="uil uil-edit"></i>
+          </div>
+          <!-- search bar -->
+          <div class="search-box">
+            <i class="uil uil-search"></i>
+            <input type="search" placeholder="Search Messages" id="message-search">
+          </div>
+          <!-- messages category -->
+          <div class="category">
+            <h6 class="active">Primary</h6>
+            <h6>General</h6>
+            <h6 class="message-request">Request(2)</h6>
+          </div>
+          <!-- message box 1-->
+          <div class="message">
+            <div class="profile-photo">
+              <img src="/images/profile-11.jpg" alt="">
+              <div class="active"></div>
+            </div>
+            <!-- message body -->
+            <div class="message-body">
+              <h5>Tanuj reddy</h5>
+              <p class="text-muted">sare vastha!</p>
+            </div>
+          </div>
+          <!-- message box 2-->
+          <div class="message">
+            <div class="profile-photo">
+              <img src="/images/profile-12.jpg" alt="">
+              <div class="active"></div>
+            </div>
+            <!-- message body -->
+            <div class="message-body">
+              <h5>Raajitha</h5>
+              <p class="text-bold">no!</p>
+            </div>
+          </div>
+          <!-- message box 3-->
+          <div class="message">
+            <div class="profile-photo">
+              <img src="/images/profile-13.jpg" alt="">
+
+            </div>
+            <!-- message body -->
+            <div class="message-body">
+              <h5>Uday kiran</h5>
+              <p class="text-bold">2 new messages </p>
+            </div>
+          </div>
+          <!-- message box 4-->
+          <div class="message">
+            <div class="profile-photo">
+              <img src="/images/profile-14.jpg" alt="">
+            </div>
+            <!-- message body -->
+            <div class="message-body">
+              <h5>Amaan</h5>
+              <p class="text-muted">etta!</p>
+            </div>
+          </div>
+          <!-- message box 5-->
+          <div class="message">
+            <div class="profile-photo">
+              <img src="/images/profile-15.jpg" alt="">
+            </div>
+            <!-- message body -->
+            <div class="message-body">
+              <h5>Yogesh</h5>
+              <p class="text-bold">anna namasthey,8 ki adda unta!</p>
+            </div>
+          </div>
+          <!-- message box 6-->
+          <div class="message">
+            <div class="profile-photo">
+              <img src="/images/profile-16.jpg" alt="">
+              <div class="active"></div>
+            </div>
+            <!-- message body -->
+            <div class="message-body">
+              <h5>Praveen</h5>
+              <p class="text-bold">7 new messages</p>
+            </div>
+          </div>
+          <!-- end of message box -->
+        </div>
+        <!-- end of messages -->
+        <!-- friend requests -->
+        <div class="friend-request">
+          <h4>Requests</h4>
+          <!-- request 1 -->
+          <div class="request">
+            <div class="info">
+              <div class="profile-photo">
+                <img src="/images/profile-10.jpg" alt="">
+              </div>
+              <div>
+                <h3>Ashi ghava</h3>
+                <p class="text-muted">
+                  2 mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">accept</button>
+              <button class="btn">decline</button>
+            </div>
+          </div>
+          <!-- request 2 -->
+          <div class="request">
+            <div class="info">
+              <div class="profile-photo">
+                <img src="/images/profile-11.jpg" alt="">
+              </div>
+              <div>
+                <h3>karimnagar</h3>
+                <p class="text-muted">
+                  1 mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">accept</button>
+              <button class="btn">decline</button>
+            </div>
+          </div>
+          <!-- request 3 -->
+          <div class="request">
+            <div class="info">
+              <div class="profile-photo">
+                <img src="/images/profile-12.jpg" alt="">
+              </div>
+              <div>
+                <h3>Muthyam</h3>
+                <p class="text-muted">
+                  8 mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">accept</button>
+              <button class="btn">decline</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of right -->
+    </div>
+  </main>
+  <script src="/code/index.js"></script>
+</body>
+
+</html>
